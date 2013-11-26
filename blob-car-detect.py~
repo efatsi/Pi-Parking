@@ -5,7 +5,7 @@ import sys
 if len(sys.argv) > 1:
   image_string = sys.argv[1]
 else:
-  image_string = "positive_images/screenshot_11-23_17:00"
+  image_string = "positive_images/screenshot_11-23-17:00"
 
 car = Image(image_string)
 no_car = Image("negative_images/screenshot_11-24_17:00")
